@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos & Recrutement - Valorant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo-efrei.png" alt="Logo EFREI" class="efrei-logo">
+        <h1>Guide Compétitif Valorant</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="agents.html">Les Agents</a></li>
+                <li><a href="arsenal.html">L'Arsenal</a></li>
+                <li><a href="contact.html">À propos / Recrutement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projet-groupe">
+            <h2>À propos du Projet XTI205-CYB</h2>
+            <p>Bienvenue sur notre projet de programmation Web. Nous avons choisi d'adapter nos compétences techniques autour de notre passion pour Valorant.</p>
+
+            <div class="grille-equipe">
+                <article class="carte-prof">
+                    <h3>[Ton Prénom & Nom]</h3>
+                    <p><strong class="texte-rouge">Rôle :</strong> Lead Développeur</p>
+                    <p>En charge de l'architecture HTML, du design CSS "Valorant" et de l'interactivité JavaScript (Modales, Formulaire).</p>
+                </article>
+                
+                <article class="carte-prof">
+                    <h3>[Prénom & Nom Partenaire]</h3>
+                    <p><strong class="texte-rouge">Rôle :</strong> Intégrateur & Contenu</p>
+                    <p>En charge de la recherche des données (Agents, VCT), de la mise en page responsive et de la vérification W3C.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" style="margin-top: 50px;">
+            <h2>Recrutement d'Agents (Contact LFG)</h2>
+            <p>Tu cherches une escouade pour <em>grind</em> la classée ? Remplis ce formulaire sécurisé pour nous envoyer ton profil.</p>
+
+            <form id="formulaire-contact">
+                <div class="champ-formulaire">
+                    <label for="riotid">Riot ID (ex: Jett#EUW) :</label>
+                    <input type="text" id="riotid" name="riotid" required placeholder="Ton pseudo et ton tag">
+                </div>
+                
+                <div class="champ-formulaire">
+                    <label for="rang">Rang actuel :</label>
+                    <input type="text" id="rang" name="rang" required placeholder="Ex: Diamant 2, Ascendant 1...">
+                </div>
+                
+                <div class="champ-formulaire">
+                    <label for="message">Tes agents "Mains" et tes motivations :</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Dis-nous pourquoi on devrait te recruter dans l'équipe..."></textarea>
+                </div>
+                
+                <button type="submit">Envoyer la candidature</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="contact.html">À propos (Membres du projet)</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 - Projet Web XTI205-CYB</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

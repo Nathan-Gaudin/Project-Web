@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo-efrei.png" alt="Logo EFREI" class="efrei-logo">
+        <h1>Guide Compétitif Valorant</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="agents.html">Les Agents</a></li>
+                <li><a href="arsenal.html">L'Arsenal</a></li>
+                <li><a href="contact.html">À propos / Recrutement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="presentation">
+            <h2>Défiez vos limites</h2>
+            <p>Bienvenue sur notre hub dédié à Valorant. Que tu cherches à perfectionner tes <em>line-ups</em>, à étudier la méta des agents ou à suivre les meilleures équipes du monde, tu es au bon endroit.</p>
+            
+            <div id="carrousel" style="position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center;">
+                <img id="slide-actuelle" src="All-Valorant-Duelists.png" alt="Aperçu Valorant" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+                
+                <div style="position: absolute; bottom: 20px; display: flex; gap: 20px;">
+                    <button id="btn-prec" style="background: var(--rouge-val); color: white; border: none; padding: 10px 20px; cursor: pointer; font-family: 'Teko', sans-serif; font-size: 1.2rem; clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);">◀ Précédent</button>
+                    <button id="btn-suiv" style="background: var(--rouge-val); color: white; border: none; padding: 10px 20px; cursor: pointer; font-family: 'Teko', sans-serif; font-size: 1.2rem; clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);">Suivant ▶</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="contact.html">À propos (Membres du projet)</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 - Projet Web XTI205-CYB</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

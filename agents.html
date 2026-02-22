@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Agents - Valorant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo-efrei.png" alt="Logo EFREI" class="efrei-logo">
+        <h1>Guide Compétitif Valorant</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="agents.html">Les Agents</a></li>
+                <li><a href="arsenal.html">L'Arsenal</a></li>
+                <li><a href="contact.html">À propos / Recrutement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="liste-agents">
+            <h2>Base de données des Agents</h2>
+            <p>Cliquez sur un agent pour afficher son dossier complet (compétences, rôle et coût d'ultime).</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom de l'Agent</th>
+                        <th>Rôle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Iso</td><td>Duelliste</td></tr>
+                    <tr><td>Jett</td><td>Duelliste</td></tr>
+                    <tr><td>Neon</td><td>Duelliste</td></tr>
+                    <tr><td>Phoenix</td><td>Duelliste</td></tr>
+                    <tr><td>Raze</td><td>Duelliste</td></tr>
+                    <tr><td>Reyna</td><td>Duelliste</td></tr>
+                    <tr><td>Yoru</td><td>Duelliste</td></tr>
+                    
+                    <tr><td>Astra</td><td>Contrôleur</td></tr>
+                    <tr><td>Brimstone</td><td>Contrôleur</td></tr>
+                    <tr><td>Clove</td><td>Contrôleur</td></tr>
+                    <tr><td>Harbor</td><td>Contrôleur</td></tr>
+                    <tr><td>Omen</td><td>Contrôleur</td></tr>
+                    <tr><td>Viper</td><td>Contrôleur</td></tr>
+                    
+                    <tr><td>Breach</td><td>Initiateur</td></tr>
+                    <tr><td>Fade</td><td>Initiateur</td></tr>
+                    <tr><td>Gekko</td><td>Initiateur</td></tr>
+                    <tr><td>KAY/O</td><td>Initiateur</td></tr>
+                    <tr><td>Skye</td><td>Initiateur</td></tr>
+                    <tr><td>Sova</td><td>Initiateur</td></tr>
+                    
+                    <tr><td>Chamber</td><td>Sentinelle</td></tr>
+                    <tr><td>Cypher</td><td>Sentinelle</td></tr>
+                    <tr><td>Deadlock</td><td>Sentinelle</td></tr>
+                    <tr><td>Killjoy</td><td>Sentinelle</td></tr>
+                    <tr><td>Sage</td><td>Sentinelle</td></tr>
+                    <tr><td>Vyse</td><td>Sentinelle</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <div id="modal-agent" class="modal-cache">
+        <div class="modal-contenu">
+            <span id="fermer-modal">&times;</span>
+            <h2 id="modal-nom">Nom Agent</h2>
+            <h3 id="modal-role" class="texte-rouge">Rôle</h3>
+            <p id="modal-desc">Description de l'agent...</p>
+            
+            <h4 class="texte-rouge">Compétences :</h4>
+            <ul id="modal-competences"></ul>
+            
+            <p class="ulti-texte"><strong class="texte-rouge">Ultime :</strong> <span id="modal-ulti"></span></p>
+        </div>
+    </div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="contact.html">À propos (Membres du projet)</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 - Projet Web XTI205-CYB</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
